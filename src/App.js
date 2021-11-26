@@ -1,16 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import CounterTwo from './components/reducerhook/CounterTwo';
-import CounterThree from './components/reducerhook/CounterThree';
+
+import Counter1 from './components/customhooks/functionality/Counter1';
+import Counter2 from './components/customhooks/functionality/Counter2';
+
+
 
 
 
 function App() {
   return (
+
     <div className="App">
-      <CounterThree />
+    
+      <Counter1/>
+      <Counter2/>
     </div>
+
   );
 }
 
